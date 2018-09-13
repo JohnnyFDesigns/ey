@@ -55,7 +55,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 	// Layer_1
 	this.shape = new cjs.Shape();
-	this.shape.graphics.f("#F0F0F0").s().p("EhtTAu4MAAAhdvMDanAAAMAAABdvg");
+	this.shape.graphics.f("#FFFFFF").s().p("EhtTAu4MAAAhdvMDanAAAMAAABdvg");
 	this.shape.setTransform(699.6,300);
 
 	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
@@ -65,35 +65,37 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 // stage content:
 (lib.journey = function(mode,startPosition,loop) {
-if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
+	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_3
 	this.instance = new lib.back();
 	this.instance.parent = this;
 	this.instance.setTransform(10,4,0.605,0.619);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(47));
+	this.timeline.addTween(cjs.Tween.get(this.instance).wait(120));
 
 	// Layer_2
 	this.instance_1 = new lib.Symbol1();
 	this.instance_1.parent = this;
 	this.instance_1.setTransform(699.6,300,1,1,0,0,0,699.6,300);
+	this.instance_1._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(1).to({x:730},0).wait(1).to({x:760.4},0).wait(1).to({x:790.9},0).wait(1).to({x:821.3},0).wait(1).to({x:851.7},0).wait(1).to({x:882.1},0).wait(1).to({x:912.5},0).wait(1).to({x:943},0).wait(1).to({x:973.4},0).wait(1).to({x:1003.8},0).wait(1).to({x:1034.2},0).wait(1).to({x:1064.6},0).wait(1).to({x:1095},0).wait(1).to({x:1125.5},0).wait(1).to({x:1155.9},0).wait(1).to({x:1186.3},0).wait(1).to({x:1216.7},0).wait(1).to({x:1247.1},0).wait(1).to({x:1277.6},0).wait(1).to({x:1308},0).wait(1).to({x:1338.4},0).wait(1).to({x:1368.8},0).wait(1).to({x:1399.2},0).wait(1).to({x:1429.7},0).wait(1).to({x:1460.1},0).wait(1).to({x:1490.5},0).wait(1).to({x:1520.9},0).wait(1).to({x:1551.3},0).wait(1).to({x:1581.8},0).wait(1).to({x:1612.2},0).wait(1).to({x:1642.6},0).wait(1).to({x:1673},0).wait(1).to({x:1703.4},0).wait(1).to({x:1733.9},0).wait(1).to({x:1764.3},0).wait(1).to({x:1794.7},0).wait(1).to({x:1825.1},0).wait(1).to({x:1855.5},0).wait(1).to({x:1885.9},0).wait(1).to({x:1916.4},0).wait(1).to({x:1946.8},0).wait(1).to({x:1977.2},0).wait(1).to({x:2007.6},0).wait(1).to({x:2038},0).wait(1).to({x:2068.5},0).wait(1).to({x:2098.9},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_1).wait(48).to({_off:false},0).wait(1).to({x:719.3},0).wait(1).to({x:739},0).wait(1).to({x:758.7},0).wait(1).to({x:778.4},0).wait(1).to({x:798.1},0).wait(1).to({x:817.8},0).wait(1).to({x:837.6},0).wait(1).to({x:857.3},0).wait(1).to({x:877},0).wait(1).to({x:896.7},0).wait(1).to({x:916.4},0).wait(1).to({x:936.1},0).wait(1).to({x:955.8},0).wait(1).to({x:975.5},0).wait(1).to({x:995.2},0).wait(1).to({x:1014.9},0).wait(1).to({x:1034.6},0).wait(1).to({x:1054.3},0).wait(1).to({x:1074.1},0).wait(1).to({x:1093.8},0).wait(1).to({x:1113.5},0).wait(1).to({x:1133.2},0).wait(1).to({x:1152.9},0).wait(1).to({x:1172.6},0).wait(1).to({x:1192.3},0).wait(1).to({x:1212},0).wait(1).to({x:1231.7},0).wait(1).to({x:1251.4},0).wait(1).to({x:1271.1},0).wait(1).to({x:1290.8},0).wait(1).to({x:1310.6},0).wait(1).to({x:1330.3},0).wait(1).to({x:1350},0).wait(1).to({x:1369.7},0).wait(1).to({x:1389.4},0).wait(1).to({x:1409.1},0).wait(1).to({x:1428.8},0).wait(1).to({x:1448.5},0).wait(1).to({x:1468.2},0).wait(1).to({x:1487.9},0).wait(1).to({x:1507.6},0).wait(1).to({x:1527.3},0).wait(1).to({x:1547.1},0).wait(1).to({x:1566.8},0).wait(1).to({x:1586.5},0).wait(1).to({x:1606.2},0).wait(1).to({x:1625.9},0).wait(1).to({x:1645.6},0).wait(1).to({x:1665.3},0).wait(1).to({x:1685},0).wait(1).to({x:1704.7},0).wait(1).to({x:1724.4},0).wait(1).to({x:1744.1},0).wait(1).to({x:1763.8},0).wait(1).to({x:1783.5},0).wait(1).to({x:1803.3},0).wait(1).to({x:1823},0).wait(1).to({x:1842.7},0).wait(1).to({x:1862.4},0).wait(1).to({x:1882.1},0).wait(1).to({x:1901.8},0).wait(1).to({x:1921.5},0).wait(1).to({x:1941.2},0).wait(1).to({x:1960.9},0).wait(1).to({x:1980.6},0).wait(1).to({x:2000.3},0).wait(1).to({x:2020},0).wait(1).to({x:2039.8},0).wait(1).to({x:2059.5},0).wait(1).to({x:2079.2},0).wait(1).to({x:2098.9},0).wait(1));
 
 	// Layer_1
 	this.instance_2 = new lib.Symbol2();
 	this.instance_2.parent = this;
 	this.instance_2.setTransform(691.3,298.5,1,1,0,0,0,645.3,165.5);
+	this.instance_2._off = true;
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(47));
+	this.timeline.addTween(cjs.Tween.get(this.instance_2).wait(48).to({_off:false},0).wait(72));
 
 	// Layer_4
 	this.instance_3 = new lib.Symbol1();
 	this.instance_3.parent = this;
 	this.instance_3.setTransform(699.6,300,1,1,0,0,0,699.6,300);
 
-	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(47));
+	this.timeline.addTween(cjs.Tween.get(this.instance_3).wait(120));
 
 }).prototype = p = new cjs.MovieClip();
 p.nominalBounds = new cjs.Rectangle(700,300,1399.3,600);
