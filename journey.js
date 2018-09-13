@@ -65,7 +65,7 @@ function getMCSymbolPrototype(symbol, nominalBounds, frameBounds) {
 
 // stage content:
 (lib.journey = function(mode,startPosition,loop) {
-	this.initialize(mode,startPosition,loop,{});
+if (loop == null) { loop = false; }	this.initialize(mode,startPosition,loop,{});
 
 	// Layer_3
 	this.instance = new lib.back();
